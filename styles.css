@@ -1,0 +1,53 @@
+  html{
+    box-sizing: border-box;
+    font-size: 16px !important;
+
+  } 
+
+  *, *:before, *:after{
+      box-sizing: inherit;
+      margin: 0;
+      padding: 0;
+
+  }
+
+  .container{
+    display: flex;
+      max-width: 100%;
+      position: fixed;
+      top: 50%;
+      left: 0;
+      transform: translate(0%, -50%);
+      justify-content: center;
+      flex-direction: row;
+      background-color: #b5d2dd;
+
+  }
+  
+  .content{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 30px 0;
+
+  }
+
+.title {
+  font-family: "Glacial Indifference"; sans-serif;
+  font-size: 2.3rem;
+  color:  black;
+  text-align: center;
+  margin-block: 30px;
+
+}
+
+.password{
+  background-color: white;
+  padding: 16px 18px;
+  width: 70%;
+  border: 1px solid #50001D;
+  text-align: center;
+  font-size: 1.3rem;
+  border-radius: 15px;
+}
